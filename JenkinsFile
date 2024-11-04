@@ -8,15 +8,17 @@ pipeline {
             }
         }
         stage('Test') {
-            steps {
-                echo 'Running tests...'
-                sh 'mvn test'
-            }
+             steps {
+                echo 'Running Mocha tests...'
+                    sh 'npm install'  // Asegúrate de instalar dependencias antes
+                sh 'npm test'      // Ejecuta las pruebas
+                    }
             post {
-                always {
-                    junit '**/target/surefire-reports/*.xml' 
+              always {
+                junit 'test-results.xml' // Si generas un reporte en XML para que Jenkins lo interprete
                 }
             }
+        }
         }
         stage('Build Docker Image') {
             steps {
