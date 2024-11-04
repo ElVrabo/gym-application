@@ -36,7 +36,8 @@ export default function FormSignIn(){
             return
         }
     } catch (error) {
-        // alert(error.response)
+        console.log(error.response.data.error)
+        alert(error.response.data.error)
         // console.log(error)
         // return
     }
@@ -105,7 +106,7 @@ const styles = StyleSheet.create({
         gap: 10,
         borderTopStartRadius: 35,
         borderTopEndRadius:35,
-        marginTop: 50
+        marginTop: 40
     },
     inputUser:{
         width:250,
