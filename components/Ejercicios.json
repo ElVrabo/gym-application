@@ -1,0 +1,58 @@
+{
+    "Ejercicios": {
+        "1": {
+            "nombre": "Press de Banca plano",
+            "descripcion": " El press de banca plano es un ejercicio de entrenamiento de fuerza que se realiza en una banca horizontal. Consiste en bajar una barra cargada de peso hasta el pecho y luego empujarla hacia arriba hasta que los brazos estén extendidos. Este ejercicio trabaja principalmente los músculos pectorales",
+            "Instrucciones": [
+                {
+                    "1": "Preparación y posición: Acuéstate en la banca plana, apoyando bien la espalda y los pies en el suelo. Alinea los ojos debajo de la barra y asegúrate de que los hombros, la cabeza y los glúteos estén en contacto con la banca"
+                },
+                {
+                    "2": "Agarre: Toma la barra con un agarre un poco más ancho que el ancho de los hombros. Envuelve bien los pulgares para asegurar la barra y mantener el control."
+                },
+                {
+                    "3": "Desciende la barra: Inhala y baja la barra lentamente hacia el pecho, manteniendo los codos en un ángulo de aproximadamente 45 grados con respecto al torso. Baja la barra hasta que esté a la altura de los pezones o ligeramente por encima."
+                },
+                {
+                    "4": "Empuje: Exhala y empuja la barra hacia arriba de forma controlada, estirando los brazos hasta que queden casi rectos (sin bloquear los codos por completo)."
+                },
+                {
+                    "5": "Repetición: Repite el movimiento el número deseado de veces, manteniendo el control y la técnica en cada repetición."
+                }
+            
+            ],
+            "numRepre":"1"
+        },
+        "2":{
+            "nombre":"",
+            "descripcion": "",
+            "numRepre":"1"
+        },
+        "3":{
+            "nombre":"",
+            "descripcion": "",
+            "numRepre":"1"
+        },
+        "4":{
+            "nombre":"",
+            "descripcion": "",
+            "numRepre":"1"
+        },
+        "5":{
+            "nombre":"",
+            "descripcion": "",
+            "numRepre":"1"
+        },
+        "6":{
+            "nombre":"",
+            "descripcion": "",
+            "numRepre":"1"
+        },
+        "7":{
+            "nombre":"",
+            "descripcion": "",
+            "numRepre":"1"
+        }
+
+    }
+}

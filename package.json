@@ -34,5 +34,22 @@
   "devDependencies": {
     "@babel/core": "^7.20.0"
   },
-  "private": true
+  "private": true,
+  "description": "E2E Framework Testing Cypress",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HectorAgHe/gym-application.git"
+  },
+  "keywords": [
+    "e2e",
+    "automation",
+    "framework",
+    "cypress"
+  ],
+  "author": "hector",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HectorAgHe/gym-application/issues"
+  },
+  "homepage": "https://github.com/HectorAgHe/gym-application#readme"
 }
